@@ -97,7 +97,16 @@ def analyze_text(file_path):
     plot_word_frequency(sorted_word_count)
 
     # Step 6: Output the results
-    print("\nAnalysis complete. Saving results to output file...")
+    print("\nAnalysis complete. Saving results to output files...")
+
+    # Save word frequency count to a separate file
+    with open('word_frequencies.txt', 'w') as word_freq_file:
+        word_freq_file.write("Word Frequency Count:\n")
+        for word, freq in sorted_word_count:
+            word_freq_file.write(f"{word}: {freq}\n")
+    print("Word frequencies saved to 'word_frequencies.txt'.")
+
+    # Save other results to a text file
     with open('analysis_output.txt', 'w') as output_file:
         output_file.write("Most Repeated Words:\n")
         for word, freq in most_repeated_words:
