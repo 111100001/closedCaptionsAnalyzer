@@ -1,0 +1,49 @@
+Most Repeated Words:
+i: 484641
+the: 239496
+you: 225251
+s: 195378
+it: 189444
+that: 152738
+to: 148571
+a: 148194
+t: 130774
+__: 118683
+
+Least Repeated Words:
+3184: 1
+mannix: 1
+denier: 1
+cusp: 1
+storefront: 1
+reticle: 1
+4252: 1
+366: 1
+kozo: 1
+wucky: 1
+
+Sentiment Polarity: 0.11844784828402352, Subjectivity: 0.5159019746451221
+
+Common Bigrams:
+i m: 87995
+don t: 72174
+it s: 60789
+i don: 48096
+that s: 37437
+t know: 25205
+you re: 23559
+the __: 20289
+this is: 18851
+you know: 18523
+
+Common Trigrams:
+i don t: 48096
+don t know: 24037
+i m gonna: 10889
+oh my god: 10577
+i m not: 10063
+um um um: 9370
+what the __: 9137
+i can t: 8084
+what do you: 7424
+it s not: 7366
